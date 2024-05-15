@@ -469,4 +469,211 @@ h2 {
 
 /*Carrusel de fotografías despues de cards Text*/
 
+.contenedor3 {
+    margin-left: 120px;
+    margin-top: -880px;
+    position:relative;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:safe;
+    width: 100%;
+}
+
+.cardImg {
+    display: flex;
+}
+
+.card-title {
+    position: absolute;
+    top: 50px;
+    left:25px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-text {
+    position: absolute;
+    top: 75px;
+    left:25px;
+    color: white;
+    font-family: 'lato',sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+    text-align: left;
+    justify-content: stretch;
+}
+
+.Img-bt {
+    margin-top: 500px;
+    margin-left: -440px;
+}
+
+.bImg1 {
+    color: black;
+    font-family:'Lato',sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: white;
+    border:none;
+    position: absolute;
+    justify-content: left;
+}
+
+.cardImg2 {
+    display: flex;
+    margin-left: 170px;
+}
+.card-title2 {
+    position: absolute;
+    top: 50px;
+    left:490px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-text2 {
+    position: absolute;
+    top: 75px;
+    left:490px;
+    color: white;
+    font-family: 'lato',sans-serif;
+    font-weight: bold;
+    font-size: 46px;
+    text-align: left;
+    justify-content: center;
+    display: block;
+}
+
+.Img-bt2 {
+    margin-top: 500px;
+    margin-left: -430px;
+}
+
+.bImg2 {
+    color: black;
+    font-family:'Lato',sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: white;
+    border:none;
+    position: absolute;
+    justify-content: left;
+}
+
+/*Card negra*/
+.cardBlack{
+
+    display: block;
+    margin-top:-154px;
+    margin-left: 10px;
+    width: 420px;
+    height: 230px;
+    background-color: black;
+    justify-content: right;
+}
+
+.card-title3 {
+    text-align: left;
+    position: absolute;
+    top: 50px;
+    left:950px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.txtCard {
+    margin-top: -20px;
+    margin-left: -5px;
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.pCard {
+    color: white;
+    text-align: left;
+    margin-left: 26px;
+    font-family: 'lato',sans-serif;
+    font-size: 14px;
+}
+
+.bImg3 {
+    margin-top: 10px;
+    margin-left: -180px;
+    justify-content: left;
+    color: black;
+    font-family:'Lato',sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: white;
+    border:none;
+    position: absolute;
+    justify-content: left;
+    
+}
+
+.buttons3 {
+
+    margin-left: -1180px;
+    margin-top: 620px;
+    margin-bottom: 300px;
+    display: flex;
+}
+
+#JF2 {
+    color: black;
+    font-family:'Lato',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    border:none;
+    position: relative;
+    text-align: left;
+
+}
+
+#SI2 {
+    margin-left: 14px;
+    color: white;
+    font-family:'Lato',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    background:none;
+    border:solid 1px white;
+    position: relative;
+}
+
+
+
+
+
 
