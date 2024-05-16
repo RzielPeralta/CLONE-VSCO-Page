@@ -460,8 +460,8 @@ h2 {
     font-size: 30px;
 }
 
-.buttons3 {
-        margin-left: 140px;
+.buttons2 {
+        margin-left: 220px;
         margin-top: 30px;
         margin-bottom: 300px;
         display:flex;
@@ -472,12 +472,14 @@ h2 {
 .contenedor3 {
     margin-left: 120px;
     margin-top: -880px;
+    margin-right: 0px;
     position:relative;
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content:safe;
+    justify-items: stretch;
     width: 100%;
+    overflow: hidden;
 }
 
 .cardImg {
@@ -633,7 +635,7 @@ h2 {
 
 .buttons3 {
 
-    margin-left: -1180px;
+    margin-left: -1114px;
     margin-top: 620px;
     margin-bottom: 300px;
     display: flex;
@@ -672,7 +674,23 @@ h2 {
     position: relative;
 }
 
+.titleImgs {
+    margin-top: -250px;
+}
 
+.titleImgs h1 {
+    text-align: 10px;
+    line-height: 60px;
+    justify-content: left;
+}
+
+.titleImgs h3 {
+    font-family: 'lato', sans-serif;
+    color: white;
+    margin-left: 170px;
+    font-weight: light;
+    margin-top: 68px;
+}
 
 
 

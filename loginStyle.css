@@ -1,0 +1,201 @@
+h2 {
+    padding-left: 2rem;
+    margin-left: 140px;
+    color: white;
+    font-family:lato;
+    font-style: normal;
+    font-weight: 300;
+    position: static;
+    text-align: left;
+}
+
+.logo svg {
+    display: flex;
+    position: static;
+    margin-left: 22px;
+    position: static;
+    display: block;
+}
+
+.namesite {
+    margin-top: -18px;
+    margin-left: 22px;
+    font-size: 10px;
+    font-family:'lato', sans-serif;
+    position: static;
+    display: block;
+}
+
+.sidebar_nav {
+    height: 1000px;
+    width: 130px;
+    position:fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: #000000;
+}
+
+.sidebar_menu {
+    padding-top: 100px;
+    position:static;
+    display:list-item;
+    text-align: left;
+}
+
+.sidebar_menu a {
+    padding-top: 200px;
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: justify;
+    line-height: 2;
+    font-family: lato, sans-serif;
+    margin-left: 20%;   
+}
+
+.buttonsp {
+    margin-top: 480px;
+    margin-left: -30px;
+    display: list-item;
+}
+
+#SU {
+    color: black;
+    font-family:'Lato',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 40px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    border:none;
+    position: relative;
+    text-align: left;
+}
+
+#LI {    
+    color: white;
+    font-family:'Lato',sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border-radius: 20px;
+    background:none;
+    border:solid 1px white;
+    position:relative;
+    text-align: left;
+}
+
+.tituloForm {
+    margin-top: 64px;
+    margin-left: 500px;
+    align-content: center;
+
+}
+
+.tituloForm h3 {
+    font-size: 24px;
+    font-family: 'lato', sans-serif;
+
+}
+
+.logIn {
+    margin-left: 500px;
+    justify-content: center; 
+}
+
+#Email {
+border-radius: 10px;
+padding: 14px;
+padding-right: 84px;
+border: none;
+margin-bottom: 14px;
+background-color: #eeeeee
+}
+
+#pssW { 
+    border-radius: 10px;
+    padding: 14px;
+    padding-right: 84px;
+    border: none;
+    background-color: #eeee
+
+}
+
+.fgtPss h3 {
+    font-size: 18px;
+    font-family: 'lato', sans-serif;
+}
+
+#fPss {
+
+    border-radius: 10px;
+    padding: 14px;
+    padding-right: 84px;
+    border: none;
+    background-color: #dddddd;
+    margin-bottom: 20px;
+
+}
+
+.btRS {
+    margin-left: 500px;
+}
+
+#lwG {
+    border-radius: 16px;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border:solid#eeeeee 2px;
+    background: none;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#lwA {
+    border-radius: 16px;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 110px;
+    border:solid#eeeeee 2px;
+    background: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.aAccount{
+    margin-top: 80px;
+    margin-left: 500px;
+}
+
+.aAccount p {
+    font-family: 'lato', sans-serif;
+    font-size: 12px;
+}
+
+#haA {
+    margin-left: 500px;
+    border-radius: 16px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 244px;
+    border:solid#eeeeee 2px;
+    background: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Fbckg{
+    width: 100%;
+    height: 40%;
+    background-color: aqua;
+}
