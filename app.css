@@ -480,6 +480,7 @@ h2 {
     justify-items: stretch;
     width: 100%;
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .cardImg {
@@ -685,13 +686,80 @@ h2 {
 }
 
 .titleImgs h3 {
-    font-family: 'lato', sans-serif;
+    font-family: 'open-sans', sans-serif;
     color: white;
     margin-left: 170px;
-    font-weight: light;
+    font-weight:normal;
     margin-top: 68px;
 }
 
+/*Animacion de carrusel en loop*/
+@keyframes slide {
+    from{
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+.ImgsC{
+    white-space: nowrap;
+    animation: 25s slide infinite linear;
+
+}
+.slideImgs{
+    margin-top: 100px;
+    margin-left: 10px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.ImgsC img {
+    height: 285px;
+    margin: 0 12px;
+}
+
+/*Fin de animacion de carrusel en loop*/
+
+.buttons4{
+    margin-left: 250px;
+    margin-top: 50px;
+    display: block;
+}
+
+.contenedor4{
+    margin-left: 240px;
+    margin-top: 50px;
+    display: flex;
+    align-items: baseline;
+    position:relative;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+/*Contenedor con imagen y botones*/
+.contenedor5 {
+    position: static;
+    background-image: url(https://assets-global.website-files.com/64e27cdd42db7ecf119d5e61/6619bddec0ae5a57c213e55a_cta-photographers%402x-p-2000.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100px;
+    display: grid;
+    margin-bottom: 20px;
+    height: 500px;
+    width: 100%;
+}
+
+.bckg2 h1{
+    margin-top: 24px;
+    color: white;
+    line-height: 64px;
+}
 
 
 
