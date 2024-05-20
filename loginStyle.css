@@ -1,3 +1,8 @@
+body {
+    margin: 0 0 0 0;
+    padding: 0px;
+}
+
 h2 {
     padding-left: 2rem;
     margin-left: 140px;
@@ -8,6 +13,7 @@ h2 {
     position: static;
     text-align: left;
 }
+/*Inicio de menu sidebar*/
 
 .logo svg {
     display: flex;
@@ -92,6 +98,27 @@ h2 {
     border:solid 1px white;
     position:relative;
     text-align: left;
+}
+/*Fin de menu sidebar*/
+
+
+/*Login form*/
+
+.containerPrincipal {
+
+    display: grid;
+    place-content: center;
+    
+}
+
+#lineDiv {
+
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    right: 50%;
+
+
 }
 
 .tituloForm {
@@ -202,6 +229,9 @@ background-color: #eeeeee
     font-weight: bold;
 }
 
+/*Inicio de Footer*/
+
+
 footer {
     background-color: #000000;
     position: relative;
@@ -212,40 +242,54 @@ footer {
     padding: 80px 0;
 }
 
-.footerLinks {
+.titleFooter {
+    margin-top: -26px;
+    font-size: 52px;
+    margin-left: 164px;
+    font-family: 'lato', sans-serif;
+}
+
+.footerLink ul{
     
-    margin-left: 224px;
+    margin-left: 54px;
+    flex-wrap: nowrap;
+    place-content: right;
+    list-style: none;
+    color: white;
 }
 
 .titulosFooter{
-    color: white;
-    margin-left: 220px;
-    margin-top: -50px;
+    margin-right: 50px;
+    margin-top: -14%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    justify-content: right;
 }
-.titulosFooter h4{
+.titulosFooter h4 {
+    display: block;
+    margin-left: -20px;
     color: white;
     font-family: 'lato', sans-serif;
 }
 
 .footerLink{
-    justify-content:left;
+    justify-content:right;
     margin-right: 10px;
 }
 
-#companyList {
+.footerLink a{
     list-style: none;
+    font-family: 'lato',sans-serif;
+    color: white;
+    text-decoration: none;
+
 }
 
-#featuresList {
-    list-style: none;
+.footerLink li{
+    margin: 0 -20px;
+    line-height: 52px;
 }
 
-#communityList {
-    list-style: none;
-}
-
-#guidesList {
-    list-style: none;
+.footerLink li:hover{
+    color: white;
 }
