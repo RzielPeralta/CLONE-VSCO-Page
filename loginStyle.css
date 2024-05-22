@@ -1,6 +1,9 @@
-body {
+:body {
   margin: 0 0 0 0;
   padding: 0px;
+}
+
+form{
 }
 
 h2 {
@@ -222,19 +225,20 @@ h2 {
 
 footer {
   background-color: #000000;
-  position: relative;
-  margin-bottom: 0px;
-  height: 464px;
+  position: static;
+  height: -40%;
   width: 100%;
   text-align: left;
-  padding: 80px 0;
+  bottom: 0;
+  z-index: 0;
 }
 
 .titleFooter {
-  margin-top: -26px;
+  margin-top: 20px;
   font-size: 52px;
   margin-left: 164px;
   font-family: "lato", sans-serif;
+  justify-content: left;
 }
 
 .footerLink ul {
@@ -246,8 +250,8 @@ footer {
 }
 
 .titulosFooter {
-  margin-right: 50px;
-  margin-top: -14%;
+  margin-right: 64px;
+  margin-top: -10%;
   display: flex;
   flex-wrap: nowrap;
   justify-content: right;
@@ -348,6 +352,7 @@ footer {
   margin-top: 16px;
   justify-content: space-around;
   place-content: left;
+  margin: 0 10 0 0px;
 }
 
 .rightsReserved a {
@@ -356,7 +361,6 @@ footer {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.671);
   font-family: "lato", sans-serif;
-  margin: 0 10 0 0px;
 }
 
 .copyright {
@@ -364,4 +368,9 @@ footer {
   font-family: "lato", sans-serif;
   font-size: 12px;
   justify-content: right;
+  margin-top: -26px;
+  justify-content: right;
+  margin-left: 1100px;
+  place-content: right;
+
 }
