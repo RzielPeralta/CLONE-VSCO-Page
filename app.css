@@ -827,3 +827,158 @@ h2 {
     
 }
 
+/*Estilos de footer*/
+
+footer {
+    background-color: #000000;
+    position: static;
+    height: -40%;
+    width: 100%;
+    text-align: left;
+    bottom: 0;
+    z-index: 0;
+  }
+  
+  .titleFooter {
+    margin-top: 20px;
+    font-size: 52px;
+    margin-left: 164px;
+    font-family: "lato", sans-serif;
+    justify-content: left;
+  }
+  
+  .footerLink ul {
+    margin-left: 54px;
+    flex-wrap: nowrap;
+    place-content: right;
+    list-style: none;
+    color: white;
+  }
+  
+  .titulosFooter {
+    margin-right: 64px;
+    margin-top: -10%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
+  }
+  .titulosFooter h4 {
+    display: block;
+    margin-left: -20px;
+    color: white;
+    font-family: "lato", sans-serif;
+  }
+  
+  .footerLink {
+    justify-content: right;
+    margin-right: 10px;
+  }
+  
+  .footerLink a {
+    list-style: none;
+    font-family: "lato", sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footerLink li {
+    margin: 0 -20px;
+    line-height: 52px;
+  }
+  
+  .footerLink li:hover {
+    color: white;
+  }
+  
+  .elementosFooter {
+    align-content: first baseline;
+  }
+  
+  .logoF {
+    justify-content: left;
+    display: block;
+  }
+  
+  .logoF svg {
+    display: flex;
+    position: static;
+    margin-left: -750px;
+  }
+  
+  .namesiteF {
+    margin-top: -18px;
+    margin-left: -754px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "lato", sans-serif;
+    position: static;
+    justify-content: left;
+  }
+  
+  .buttonspF {
+    margin-top: 20px;
+    margin-left: 850px;
+    display: flex;
+    justify-content: right;
+    margin-right: 32px;
+  }
+  
+  #TFF {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    background: none;
+    border: solid 1px white;
+    position: relative;
+  }
+  
+  #DN {
+    color: white;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    background: none;
+    border: solid 1px white;
+    position: relative;
+  }
+  
+  .rightsReserved {
+    margin-left: 150px;
+    margin-top: 16px;
+    justify-content: space-around;
+    place-content: left;
+    margin: 0 10 0 0px;
+  }
+  
+  .rightsReserved a {
+    font-size: 12px;
+    list-style: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.671);
+    font-family: "lato", sans-serif;
+  }
+  
+  .copyright {
+    color: rgba(255, 255, 255, 0.671);
+    font-family: "lato", sans-serif;
+    font-size: 12px;
+    justify-content: right;
+    margin-top: -26px;
+    justify-content: right;
+    margin-left: 1100px;
+    place-content: right;
+  
+  }
+
+/*Fin de estilos de footer*/

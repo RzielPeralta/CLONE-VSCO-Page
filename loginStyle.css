@@ -1,9 +1,12 @@
-:body {
+*{
   margin: 0 0 0 0;
   padding: 0px;
 }
 
 form{
+  position: static;
+  display: block;
+
 }
 
 h2 {
@@ -67,7 +70,7 @@ h2 {
 
 .buttonsp {
   margin-top: 480px;
-  margin-left: -30px;
+  margin-left: 20px;
   display: list-item;
 }
 
@@ -85,6 +88,7 @@ h2 {
   border: none;
   position: relative;
   text-align: left;
+  margin-bottom: 10px;
 }
 
 #LI {
@@ -266,6 +270,8 @@ footer {
 .footerLink {
   justify-content: right;
   margin-right: 10px;
+  margin-top: 24px;
+  display: block;
 }
 
 .footerLink a {
@@ -277,11 +283,11 @@ footer {
 
 .footerLink li {
   margin: 0 -20px;
-  line-height: 52px;
+  line-height: 44px;
 }
 
-.footerLink li:hover {
-  color: white;
+.footerLink a:hover {
+  color: whitesmoke;
 }
 
 .elementosFooter {
@@ -329,7 +335,7 @@ footer {
   border-radius: 20px;
   background: none;
   border: solid 1px white;
-  position: relative;
+  position: static;
 }
 
 #DN {
@@ -344,7 +350,7 @@ footer {
   border-radius: 20px;
   background: none;
   border: solid 1px white;
-  position: relative;
+  position: static;
 }
 
 .rightsReserved {
