@@ -908,7 +908,7 @@ footer {
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-left: 550px;
+    margin-left: 850px;
   }
   .titulosFooter h4 {
     display: block;
@@ -953,12 +953,12 @@ footer {
   .logoF svg {
     display: flex;
     position: static;
-    margin-left: -1058px;
+    margin-left: -1348px;
   }
   
   .namesiteF {
     margin-top: -18px;
-    margin-left: -1054px;
+    margin-left: -1344px;
     font-size: 14px;
     font-weight: bold;
     font-family: "lato", sans-serif;
@@ -968,10 +968,10 @@ footer {
   
   .buttonspF {
     margin-top: 20px;
-    margin-left:50px;
+    margin-left:450px;
     display: flex;
     justify-content: right;
-    margin-right: 372px;
+    margin-right: 80px;
     margin-bottom: 14px;
   }
   
