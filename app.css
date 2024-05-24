@@ -1,7 +1,11 @@
-body {
+body, html {
     background-color: #111111;
     z-index: 0;
-    margin: 0 0 0 0;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: 100%;
+    width: 100%;
 }
 
 .contenedor0 {
@@ -33,7 +37,7 @@ body {
 
 .slideImgsV{
     margin-top: 50px;
-    margin-left: 1240px;
+    margin-left: 1550px;
     padding: 0 10;
     justify-content:right;
     display: block;
@@ -140,7 +144,7 @@ header {
 h1 {
     padding-left: 2rem;
     margin-top: 1px;
-    margin-bottom: -4%;
+    margin-bottom: -50px;
     margin-left: 140px;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -435,7 +439,7 @@ h2 {
 }
 
 .contenedor2 {
-    margin-top: -10rem;
+    margin-top: -12rem;
     margin-left: 150px;
     margin-right: 50px;
     flex-wrap: wrap;
@@ -762,20 +766,64 @@ h2 {
     display: block;
 }
 
+/*Tarjetas texto 2*/
+
 .contenedor4{
-    margin-left: 240px;
+    padding: 0 40px;
+    margin-left: 210px;
     margin-top: 50px;
     display: flex;
     align-items: baseline;
     position:relative;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
+    text-align: left;
+    display:flex;
     justify-items: space-between;
     width: 100%;
     overflow: hidden;
-    box-sizing: border-box;
+    z-index: 0;
+    flex-direction:row;
+    flex-wrap: wrap;
+    column-gap: 164px; /*Espacio entre cards*/
 }
+
+.cardt2{
+    text-align: left;
+}
+
+.cardt2 h2 {
+    margin-top: -100px;
+    margin-left: -10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    line-height: 60px;
+}
+
+.cardt2 p {
+    padding-left:1rem;
+    color: white;
+    font-family:'lato',sans-serif;
+    margin-top: 1rem;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.cardt2 h2 {
+    margin-top: 50px;
+    margin-left: -10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    line-height: 60px;
+}
+
+#BCP{
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Fin Tarjetas texto 2*/
 
 /*Contenedor con imagen y botones*/
 .contenedor5 {
@@ -785,10 +833,11 @@ h2 {
     background-size: cover;
     background-position: 100px;
     display: grid;
-    margin-bottom: 20px;
+    margin-bottom: -20px;
     height: 500px;
     width: 100%;
     margin-top: 100px;
+    z-index: 0;
 }
 
 .bckg2 h1{
@@ -831,20 +880,18 @@ h2 {
 
 footer {
     background-color: #000000;
-    position: static;
+    position: relative;
     height: -40%;
     width: 100%;
-    text-align: left;
     bottom: 0;
-    z-index: 0;
+    margin-left: 0px;
   }
   
-  .titleFooter {
+  .titleFooter{
     margin-top: 20px;
     font-size: 52px;
-    margin-left: 164px;
+    margin-left:150px;
     font-family: "lato", sans-serif;
-    justify-content: left;
   }
   
   .footerLink ul {
@@ -857,10 +904,11 @@ footer {
   
   .titulosFooter {
     margin-right: 64px;
-    margin-top: -10%;
+    margin-top: -300px;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: right;
+    justify-content: center;
+    margin-left: 550px;
   }
   .titulosFooter h4 {
     display: block;
@@ -889,11 +937,12 @@ footer {
   }
   
   .footerLink a:hover {
-    color: whitesmoke;
+    color: yellow;
   }
   
   .elementosFooter {
     align-content: first baseline;
+    justify-content: left;
   }
   
   .logoF {
@@ -904,12 +953,12 @@ footer {
   .logoF svg {
     display: flex;
     position: static;
-    margin-left: -750px;
+    margin-left: -1058px;
   }
   
   .namesiteF {
     margin-top: -18px;
-    margin-left: -754px;
+    margin-left: -1054px;
     font-size: 14px;
     font-weight: bold;
     font-family: "lato", sans-serif;
@@ -919,12 +968,15 @@ footer {
   
   .buttonspF {
     margin-top: 20px;
-    margin-left: 850px;
+    margin-left:50px;
     display: flex;
     justify-content: right;
-    margin-right: 32px;
+    margin-right: 372px;
+    margin-bottom: 14px;
   }
   
+  
+
   #TFF {
     color: white;
     font-family: "Lato", sans-serif;
@@ -977,8 +1029,7 @@ footer {
     font-size: 12px;
     justify-content: right;
     margin-top: -26px;
-    justify-content: right;
-    margin-left: 1100px;
+    margin-left: 1600px;
     place-content: right;
   
   }

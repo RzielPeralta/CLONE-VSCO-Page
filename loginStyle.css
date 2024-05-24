@@ -1,6 +1,11 @@
-*{
-  margin: 0 0 0 0;
-  padding: 0px;
+body, html {
+  background-color:white;
+  z-index: 0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
 }
 
 form{
@@ -45,7 +50,7 @@ h2 {
   z-index: 1;
   top: 0;
   left: 0;
-  overflow-x: hidden;
+  overflow: hidden;
   padding-top: 20px;
   background-color: #000000;
 }
@@ -65,12 +70,12 @@ h2 {
   text-align: justify;
   line-height: 2;
   font-family: lato, sans-serif;
-  margin-left: 20%;
+  margin-left: 16%;
 }
 
 .buttonsp {
   margin-top: 480px;
-  margin-left: 20px;
+  margin-left: -32px;
   display: list-item;
 }
 
@@ -113,13 +118,16 @@ h2 {
 .containerPrincipal {
   place-content: center;
   display: grid;
+  position: relative;
+  right: 5%;
+  left: -5%;
 }
 
 #lineDiv {
   position: absolute;
-  top: 55%;
+  top: 65%;
   left: 50%;
-  right: 50%;
+  right: 40%;
 }
 
 .tituloForm {
@@ -229,20 +237,20 @@ h2 {
 
 footer {
   background-color: #000000;
-  position: static;
+  position: relative;
   height: -40%;
   width: 100%;
-  text-align: left;
   bottom: 0;
-  z-index: 0;
+  margin-left: 0px;
+  padding: 0;
+  overflow-y: hidden;
 }
 
-.titleFooter {
-  margin-top: 20px;
+.titleFooter{
+  margin-top: 40px;
   font-size: 52px;
-  margin-left: 164px;
+  margin-left:150px;
   font-family: "lato", sans-serif;
-  justify-content: left;
 }
 
 .footerLink ul {
@@ -255,10 +263,11 @@ footer {
 
 .titulosFooter {
   margin-right: 64px;
-  margin-top: -10%;
+  margin-top: -180px;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: right;
+  justify-content: center;
+  margin-left: 850px;
 }
 .titulosFooter h4 {
   display: block;
@@ -287,11 +296,12 @@ footer {
 }
 
 .footerLink a:hover {
-  color: whitesmoke;
+  color: yellow;
 }
 
 .elementosFooter {
   align-content: first baseline;
+  justify-content: left;
 }
 
 .logoF {
@@ -302,12 +312,12 @@ footer {
 .logoF svg {
   display: flex;
   position: static;
-  margin-left: -750px;
+  margin-left: -1348px;
 }
 
 .namesiteF {
   margin-top: -18px;
-  margin-left: -754px;
+  margin-left: -1344px;
   font-size: 14px;
   font-weight: bold;
   font-family: "lato", sans-serif;
@@ -317,11 +327,14 @@ footer {
 
 .buttonspF {
   margin-top: 20px;
-  margin-left: 850px;
+  margin-left:450px;
   display: flex;
   justify-content: right;
-  margin-right: 32px;
+  margin-right: 80px;
+  margin-bottom: 14px;
 }
+
+
 
 #TFF {
   color: white;
@@ -375,8 +388,9 @@ footer {
   font-size: 12px;
   justify-content: right;
   margin-top: -26px;
-  justify-content: right;
-  margin-left: 1100px;
+  margin-left: 1600px;
   place-content: right;
 
 }
+
+/*Fin de estilos de Footer*/
