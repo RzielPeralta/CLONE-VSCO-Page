@@ -872,6 +872,8 @@ footer {
   .footerLink {
     justify-content: right;
     margin-right: 10px;
+    margin-top: 24px;
+    display: block;
   }
   
   .footerLink a {
@@ -883,11 +885,11 @@ footer {
   
   .footerLink li {
     margin: 0 -20px;
-    line-height: 52px;
+    line-height: 44px;
   }
   
-  .footerLink li:hover {
-    color: white;
+  .footerLink a:hover {
+    color: whitesmoke;
   }
   
   .elementosFooter {
@@ -935,7 +937,7 @@ footer {
     border-radius: 20px;
     background: none;
     border: solid 1px white;
-    position: relative;
+    position: static;
   }
   
   #DN {
@@ -950,7 +952,7 @@ footer {
     border-radius: 20px;
     background: none;
     border: solid 1px white;
-    position: relative;
+    position: static;
   }
   
   .rightsReserved {
